@@ -44,4 +44,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64
           push: true
-          tags: pixelpotato:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/pixelpotato/python-helloworld:latest
